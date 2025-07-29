@@ -1,0 +1,11 @@
+The procedure of implementing the Matlab codes is as follows:
+
+1. Prepare a spreadsheet file that contains the {Qtn, Fr, USCS} data of the target site, e.g., Malamocco_nL_7.xlsx.
+
+2. Prepare a spreadsheet file that contains the {Qtn,Fr} data of the target site (USCS is to be predicted), e.g., CPTU19_data.xlsx.
+
+3. Edit main_function.m. Check if the names of the spreadsheet files are correct (see Lines 5 & 38).
+
+4. Execute main_USCS_HBM_inference.m.
+
+5. P_pred (Line 51) contains the predicted USCS categorical probabilities.
